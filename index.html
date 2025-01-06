@@ -21,8 +21,8 @@
         let btn1 = document.getElementById("mybutton");
         let btn2 = document.getElementById("mybutton2");
         let codeDiv = document.querySelector(".copycode");
-        let rgb1 =" #000";
-        let rgb2 = "#fff";
+        let rgb1 =" #004773";
+        let rgb2 = "#54d542";
 
 
         const myhandle =()=>{
@@ -68,6 +68,10 @@
 
         btn1.addEventListener("click",handlebutton1);
         btn2.addEventListener("click",handlebutton2);
+
+        codeDiv.addEventListener("click",()=>{
+            navigator.clipboard.writeText(codeDiv.innerText)
+        })
     </script>
     
 </body>

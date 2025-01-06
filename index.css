@@ -3,12 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-#mybutton,#mybutton2{
+#mybutton{
+    gap: 20px;
+    background-color: yellow;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#mybutton2{
+    gap: 20px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
 }
 .copycode,h2{
+    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
