@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mybutton,.mybutton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copycode,h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
